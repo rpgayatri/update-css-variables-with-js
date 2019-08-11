@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="title">
+      Updating CSS variables with
+      <div data-type="color" class="title-text-color">JAVASCRIPT</div>
+    </div>
+    <div class="controls">
+      <div class="control">
+        <h3>Spacing</h3>
+        <input
+          name="padding"
+          type="range"
+          min="0"
+          max="40"
+          step="4"
+          value="10"
+          data-type="px"
+        />
+      </div>
+
+      <div class="control">
+        <h3>Blur</h3>
+        <input
+          name="blur"
+          type="range"
+          min="0"
+          max="10"
+          step="1"
+          value="0"
+          data-type="px"
+        />
+      </div>
+
+      <div class="control">
+        <h3>Colour</h3>
+        <input name="color" type="color" value="#008000" />
+      </div>
+    </div>
+    <div class="image-holder">
+      <img src="images/flowers.jpg" class="image" />
+    </div>
+  </body>
+</html>
